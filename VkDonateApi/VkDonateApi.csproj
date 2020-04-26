@@ -16,14 +16,21 @@
     <PackageTags>VK Vkontakte API VkDonate Donate</PackageTags>
     <Authors>Alexey Lashov</Authors>
     <Description>API для взаимодействия с VK приложением Donate</Description>
-    <Version>1.0.1.2</Version>
+    <Version>1.0.1.4</Version>
     <Company>Alexey Lashov</Company>
     <PackageIconUrl>https://sun9-14.userapi.com/c856024/v856024964/100f31/UPVlmjwY9Og.jpg</PackageIconUrl>
     <Configurations>Debug;Release</Configurations>
   </PropertyGroup>
   
-  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|netcoreapp3.1|AnyCPU'">
-    <DocumentationFile>VkDonateApi.xml</DocumentationFile>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DefineConstants>TRACE;DEBUG;UWP</DefineConstants>
+    <DocumentationFile>..\Build\Debug\VkDonateApi.xml</DocumentationFile>
+    <OutputPath>..\Build\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DefineConstants>TRACE;UWP</DefineConstants>
+    <DocumentationFile>..\Build\Release\VkDonateApi.xml</DocumentationFile>
+    <OutputPath>..\Build\Release\</OutputPath>
   </PropertyGroup>
   
   <ItemGroup>

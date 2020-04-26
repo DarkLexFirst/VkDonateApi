@@ -6,14 +6,14 @@ namespace VkDonateApi
 	/// <summary>
 	/// VkDonate API.
 	/// </summary>
-	public class VkDonateApi
+	public class VkDonate
 	{
 		/// <summary>
 		/// Обработчик вызовов к серверу.
 		/// </summary>
 		public Caller Caller { get; }
 
-		public VkDonateApi(string key)
+		public VkDonate(string key)
 		{
 			Caller = new Caller();
 			Caller.Key = key;
