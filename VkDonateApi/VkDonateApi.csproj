@@ -27,10 +27,6 @@
   </PropertyGroup>
   
   <ItemGroup>
-    <None Remove="VkDonateApi.xml" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="Flurl.Http" Version="2.4.2" />
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
   </ItemGroup>
@@ -39,6 +35,12 @@
     <None Include="..\LICENCE.txt">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="VkDonateApi.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
 
