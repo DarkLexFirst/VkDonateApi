@@ -19,12 +19,16 @@
     <Version>1.0.1.2</Version>
     <Company>Alexey Lashov</Company>
     <PackageIconUrl>https://sun9-14.userapi.com/c856024/v856024964/100f31/UPVlmjwY9Og.jpg</PackageIconUrl>
-    <Configurations>Debug;Release;Test</Configurations>
+    <Configurations>Debug;Release</Configurations>
   </PropertyGroup>
-
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile>C:\Users\Пользователь\source\repos\VkDonateApi\VkDonateApi\VkDonateApi.xml</DocumentationFile>
+  
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|netcoreapp3.1|AnyCPU'">
+    <DocumentationFile>VkDonateApi.xml</DocumentationFile>
   </PropertyGroup>
+  
+  <ItemGroup>
+    <None Remove="VkDonateApi.xml" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Flurl.Http" Version="2.4.2" />
