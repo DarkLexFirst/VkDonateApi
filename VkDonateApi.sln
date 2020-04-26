@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29411.108
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VkDonateApi", "VkDonateApi\VkDonateApi.csproj", "{C48670E6-BEC6-4DDE-B7E9-57455DF37BEB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C48670E6-BEC6-4DDE-B7E9-57455DF37BEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C48670E6-BEC6-4DDE-B7E9-57455DF37BEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C48670E6-BEC6-4DDE-B7E9-57455DF37BEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C48670E6-BEC6-4DDE-B7E9-57455DF37BEB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {770E1E21-6F47-4C5B-B7C4-A387C63017BB}
+	EndGlobalSection
+EndGlobal
