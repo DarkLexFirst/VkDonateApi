@@ -13,7 +13,7 @@ namespace VkDonateApi
 		/// <summary>
 		/// Секретный ключ.
 		/// </summary>
-		public string Key { get; set; }
+		public string Key { get; internal set; }
 
 		private string Server { get; } = "https://api.vkdonate.ru";
 

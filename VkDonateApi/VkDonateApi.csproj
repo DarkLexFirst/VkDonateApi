@@ -5,8 +5,8 @@
     <ApplicationIcon />
     <OutputType>Library</OutputType>
     <StartupObject />
-    <AssemblyVersion>1.0.1.0</AssemblyVersion>
-    <FileVersion>1.0.1.0</FileVersion>
+    <AssemblyVersion>1.0.2.0</AssemblyVersion>
+    <FileVersion>1.0.2.0</FileVersion>
     <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Copyright>Copyright (c) Alexey Lashov 2020</Copyright>
@@ -16,7 +16,7 @@
     <PackageTags>VK Vkontakte API VkDonate Donate</PackageTags>
     <Authors>Alexey Lashov</Authors>
     <Description>API для взаимодействия с VK приложением Donate</Description>
-    <Version>1.0.1.4</Version>
+    <Version>1.0.2</Version>
     <Company>Alexey Lashov</Company>
     <PackageIconUrl>https://sun9-14.userapi.com/c856024/v856024964/100f31/UPVlmjwY9Og.jpg</PackageIconUrl>
     <Configurations>Debug;Release</Configurations>
